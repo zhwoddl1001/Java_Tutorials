@@ -1,5 +1,7 @@
 package com.kh.loopEx;
 
+import java.util.Scanner;
+
 public class WhileEx {
     /*
      * while(조건이 true 일때 실행){
@@ -35,7 +37,8 @@ public class WhileEx {
         System.out.print("----반복 시작----");
         if(input !=-1) sum += input; // -1이 입력된 경우 제외
         System.out.println("합계 : " +sum);
-        return;
+        // 입력한 값 갱신을 위해 설정하는 input
+        //input = new Scanner(System.in).nextInt();
     }
 
     }
