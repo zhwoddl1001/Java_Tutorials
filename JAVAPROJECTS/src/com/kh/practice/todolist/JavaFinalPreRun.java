@@ -1,5 +1,7 @@
 package com.kh.practice.todolist;
 
+import java.util.Scanner;
+
 public class JavaFinalPreRun {
     public static void main(String[] args) {
 
@@ -11,6 +13,11 @@ public class JavaFinalPreRun {
 
        //2 컬렉션과 조건문
        javaFinalPre.print();
+
+       //3. 예외 처리
+        javaFinalPre.Division();
+
+        //4. 상속
 
 
     }
