@@ -41,5 +41,17 @@ public class WhileEx {
         //input = new Scanner(System.in).nextInt();
     }
 
+    /*
+    * do-while()
+    *   조건식이 뒤에 작성된 while문
+    * - true가 아니더라도 최초 1회 이상의 반복을 보장
+    *
+    * do{
+    *  최초1회는 무조건 수행하되, 2회부터는 while 문이 true이어야지 실행
+    * } while(조건);
+    *
+    *
+    * */
+
     }
 }
