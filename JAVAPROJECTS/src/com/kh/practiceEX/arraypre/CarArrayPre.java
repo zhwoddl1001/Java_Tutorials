@@ -1,4 +1,4 @@
-package com.kh.practiceEx.arraypre;
+package com.kh.practiceEX.arraypre;
 /*
  Object Array
  자바에서 객체를 배열로 관리할 수 있는 자료구조

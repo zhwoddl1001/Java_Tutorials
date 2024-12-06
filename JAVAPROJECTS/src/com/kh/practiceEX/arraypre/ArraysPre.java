@@ -1,7 +1,6 @@
-package com.kh.practiceEx.arraypre;
+package com.kh.practiceEX.arraypre;
 
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class ArraysPre {
 

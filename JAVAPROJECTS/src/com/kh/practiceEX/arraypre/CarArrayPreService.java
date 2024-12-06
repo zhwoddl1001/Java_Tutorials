@@ -1,4 +1,4 @@
-package com.kh.practiceEx.arraypre;
+package com.kh.practiceEX.arraypre;
 
 import java.util.Arrays;
 
@@ -10,6 +10,7 @@ public class CarArrayPreService {
               new CarArrayPre("기아","쏘렌토",2019),
               new CarArrayPre("아우디","A6",2022)
     };
+
     // todo: 1. Arrays.toString 을 이용해 cars 배열 출력
         System.out.println(cars);
         System.out.println("Arrays toString을 이용한 차 종류들 출력" + Arrays.toString(cars));
@@ -21,6 +22,7 @@ public class CarArrayPreService {
          FROM CAR
          ORDER BY BRAND = ASC
         * */
+        // car
         /*
         * 버블 정렬 알고리즘
         * 배열의 인접한 두 값을 비교해 조건에 따라 위치를 바꿈
@@ -30,8 +32,8 @@ public class CarArrayPreService {
         * cars[j].brand         cars[j+1].brand        브랜드 이름을 비교했을 때
         * 가나다순으로 봤을 때 결과가 0보다 크다면 값 위치를 교체
         * */
-        for(int i = 0; i < cars.length; i++){
-            for(int j = 0; j < cars.length; j++){
+        for(int i = 0; i < cars.length-1; i++){ //
+            for(int j = 0; j < cars.length-1; j++){
                 if(cars[j].brand.compareTo(cars[j+1].brand)>0){
                     CarArrayPre temp = cars[j]; // 현재 찾아낸 cars[j]의 값을 temp 임시 변수명에 저장
                     cars[j] = cars[j + 1]; // 비교했을 때 가나다 순으로 앞에 있어야 하는 단어위치를 앞으로 변경
