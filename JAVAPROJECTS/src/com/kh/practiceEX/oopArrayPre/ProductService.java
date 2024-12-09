@@ -15,8 +15,8 @@ public class ProductService {
     public void  viewProducts() {
         if(products.size() > 0) {
             System.out.println("====제품 목록 ====");
-            for(Product p0 : products) {
-                System.out.println(p0);
+            for(Product p : products) {
+                System.out.println(p);
                 System.out.println("-------------");
 
             }

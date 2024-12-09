@@ -35,13 +35,13 @@ public class ProductServiceRun {
             System.out.println("잘못 입력했습니다. 다시 작성해주세요.");
         }
         Product p = new Product(inputName,inputPrice);
+
         p.setDescription(inputDescription);
         p.setCategory(inputCategory);
         productService.addProduct(p);
         //제품설명과 카테고리는 입력유무를 물어본 후 yes 로 입력하면
         //제품 설명과 카테고리 작성
         //no 입력하면 제품명과 가격만 저장
-
 
 
 
@@ -66,10 +66,10 @@ public class ProductServiceRun {
 
         productService.addProduct(p1);
         productService.addProduct(p2);
-
+        */
         //제품목록 보기
         productService.viewProducts();
-        */
+
 
 
         //제품명으로 제품검색
