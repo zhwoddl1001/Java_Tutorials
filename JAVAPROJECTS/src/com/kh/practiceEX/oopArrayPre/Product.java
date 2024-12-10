@@ -1,8 +1,8 @@
 package com.kh.practiceEX.oopArrayPre;
 
 public class Product {
-    private String name;
     private int price;
+    private String name;
     private String description;
     private String category;
     
@@ -15,8 +15,8 @@ public class Product {
     }
 
     public Product(String name, int price) {
-        this.name = name;
         this.price = price;
+        this.name = name;
         // this.description = description;
        //  this.category = category;
     }
