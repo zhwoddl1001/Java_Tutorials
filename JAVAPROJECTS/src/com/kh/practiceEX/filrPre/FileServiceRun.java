@@ -1,5 +1,7 @@
 package com.kh.practiceEX.filrPre;
 
+import java.security.Provider;
+
 public class FileServiceRun {
     public static void main(String[] args) {
         FileService fileService = new FileService();
@@ -12,5 +14,8 @@ public class FileServiceRun {
         * */
         String input = "\n 피자 \n 치킨 \n 초밥 \n 파스타";
         fileService.createFile(input);
+        fileService.readFile();
+        String content = "\n햄버거 \n돈까스 \n쌀국수 \n카레";
+        fileService.appendToFile(content);
     }
 }
