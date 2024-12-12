@@ -7,6 +7,8 @@ public class MemberRun {
         m.setName("강길자");
         m.setPassword("pass1");
 
+
+
         if(m.login("user1", "pass1")) {
             System.out.println("로그인 성공 " + m.getName() + " 님 환영합니다.");
         }else {
